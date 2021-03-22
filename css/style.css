@@ -1,24 +1,93 @@
 
+/* debug */
+/* .container{
+    height: 500px;
+}
+
+main{
+    background-color:yellow;
+    
+}
+
+footer{
+    background-color: green;
+    height: 30px;
+    
+}
+
+
+.top,
+.bottom{
+    background-color: wheat;
+} */
+
+
+
+/* debug */
+
+
+
 /* General */
 * {
     box-sizing: border-box;
     margin: 0;
     padding:0;
 }
-
-
 .clearfix {
     content:"";
     display:table;
     clear:both;
 }
-
 body{
+    font-family:'Nerko One', cursive;
     background-color: #ADD8E6;
 }
 
 .container{
-    width: 80%;
+    width: 60%;
     margin: auto;
     
+}
+
+header{
+    height: 70px;
+}
+
+h1{
+    line-height: 70px;
+    vertical-align: center;
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.main-container{
+    margin: auto;
+}
+
+.top,
+.middle,
+.bottom {
+    margin:auto;
+
+}
+
+.card {
+    float: left;
+    background-color: white;
+    width: calc(25%-5px);
+    margin:0 20px 20px 0;
+    padding:10px;
+
+    border-radius:10px;
+}
+
+.card-title {
+    text-align: center;
+    color: #E61986;
+}
+
+img {
+    height: 130px;
 }
