@@ -1,0 +1,24 @@
+
+/* General */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+
+.clearfix {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+body{
+    background-color: #ADD8E6;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
