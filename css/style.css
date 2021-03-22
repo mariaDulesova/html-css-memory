@@ -1,32 +1,4 @@
 
-/* debug */
-/* .container{
-    height: 500px;
-}
-
-main{
-    background-color:yellow;
-    
-}
-
-footer{
-    background-color: green;
-    height: 30px;
-    
-}
-
-
-.top,
-.bottom{
-    background-color: wheat;
-} */
-
-
-
-/* debug */
-
-
-
 /* General */
 * {
     box-sizing: border-box;
@@ -38,7 +10,7 @@ footer{
     display:table;
     clear:both;
 }
-body{
+body {
     font-family:'Nerko One', cursive;
     background-color: #ADD8E6;
 }
@@ -49,45 +21,77 @@ body{
     
 }
 
-header{
-    height: 70px;
+/* Header */
+header {
+    margin:auto;
 }
 
-h1{
+h1 {
     line-height: 70px;
     vertical-align: center;
     color:white;
     text-align: center;
     text-transform: uppercase;
-
 }
 
 .main-container{
     margin: auto;
 }
 
+/* Main */
 .top,
 .middle,
 .bottom {
-    margin:auto;
-
+    margin: auto;
 }
 
+img {
+    height: 120px;
+}
 .card {
     float: left;
     background-color: white;
-    width: calc(25%-5px);
     margin:0 20px 20px 0;
-    padding:10px;
-
+    padding:15px;
     border-radius:10px;
+    position: relative;
+}
+.card-cover{
+    width: 150px;
+    height:174px;
+    border-radius:10px;
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat;
+    background-size: contain;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index:2;
+}
+.card-cover:hover{
+    background-image: none;
 }
 
 .card-title {
     text-align: center;
-    color: #E61986;
+}
+.pink {
+    color:#E61986;
+}
+.green {
+    color: green;
+}
+.orange {
+    color: orange;
+}
+.blue{
+    color: blue;
 }
 
-img {
-    height: 130px;
+
+/* Footer */
+footer>p{
+    line-height: 30px;
+    vertical-align: 30px;
+    text-align: center;
 }
